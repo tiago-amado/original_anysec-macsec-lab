@@ -78,7 +78,7 @@ To deploy this lab, you must clone it to your server with "git clone".
 # change to your working directory
 cd /home/user/
 # Clone the lab to your server
-git clone https://github.com/srl-labs/sros-anysec-macsec-lab.git
+git clone https://github.com/tiago-amado/original_anysec-macsec-lab.git
 ```
 
 
@@ -250,6 +250,7 @@ The following stack of software solutions has been chosen for this lab:
 | Time-Series DB      | [prometheus](https://prometheus.io)                 | 9090               | http://localhost:9090/graph        |                    |
 | Visualization       | [grafana](https://grafana.com)                      | 3000               | http://localhost:3000              | admin/admin        |
 | Automation          | [flask](https://flask.palletsprojects.com/en/3.0.x/)| 35000              | http://localhost:35000/            |                    |
+| EdgeShark           | [EdgeShark](https://github.com/siemens/edgeshark)   | 5001               | http://localhost:5001/             |                    |
 
 
 
@@ -271,6 +272,7 @@ If you are accessing from a remote host, then replace localhost by the CLAB Serv
 * Grafana: <http://localhost:3000>. Built-in user credentials: `admin/admin`
 * Prometheus: <http://localhost:9090/graph>
 * Flask Automation Page: <http://localhost:35000/>   
+* EdgeShark: <http://localhost:5001/>   
 
 
 
